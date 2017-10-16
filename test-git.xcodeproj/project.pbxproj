@@ -12,6 +12,7 @@
 		4B1224891F94DFFA008341E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B1224871F94DFFA008341E8 /* Main.storyboard */; };
 		4B12248B1F94DFFA008341E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B12248A1F94DFFA008341E8 /* Assets.xcassets */; };
 		4B12248E1F94DFFA008341E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B12248C1F94DFFA008341E8 /* LaunchScreen.storyboard */; };
+		4B1224981F94E781008341E8 /* arbreDeGit.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1224971F94E77F008341E8 /* arbreDeGit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4B12248A1F94DFFA008341E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B12248D1F94DFFA008341E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B12248F1F94DFFA008341E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1224971F94E77F008341E8 /* arbreDeGit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arbreDeGit.png; path = ../../../../Downloads/arbreDeGit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4B1224821F94DFFA008341E8 /* test-git */ = {
 			isa = PBXGroup;
 			children = (
+				4B1224961F94E770008341E8 /* Ressources */,
 				4B1224831F94DFFA008341E8 /* AppDelegate.swift */,
 				4B1224851F94DFFA008341E8 /* ViewController.swift */,
 				4B1224871F94DFFA008341E8 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4B12248F1F94DFFA008341E8 /* Info.plist */,
 			);
 			path = "test-git";
+			sourceTree = "<group>";
+		};
+		4B1224961F94E770008341E8 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				4B1224971F94E77F008341E8 /* arbreDeGit.png */,
+			);
+			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			files = (
 				4B12248E1F94DFFA008341E8 /* LaunchScreen.storyboard in Resources */,
 				4B12248B1F94DFFA008341E8 /* Assets.xcassets in Resources */,
+				4B1224981F94E781008341E8 /* arbreDeGit.png in Resources */,
 				4B1224891F94DFFA008341E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
